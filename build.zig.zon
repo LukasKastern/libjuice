@@ -1,0 +1,16 @@
+.{
+    .name = .libjuice,
+    .version = "1.6.1",
+    .fingerprint = 0x219afa4f80155f7,
+    .dependencies = .{
+        .juice = .{
+            .url = "git+https://github.com/paullouisageneau/libjuice#b509b6c1f90e4a1d4753e6bde62ffbeb4d10c6bb",
+            .hash = "N-V-__8AAIzpBwARjI1tUbItVqsjfqMNqreTY0oV0l-5w_Wi",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "LICENSE",
+    },
+}
