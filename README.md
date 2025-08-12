@@ -9,7 +9,7 @@ First, update your `build.zig.zon`:
 ```
 # Initialize a `zig build` project if you haven't already
 zig init
-zig fetch --save git+https://github.com/lukaskastern/libjuice.git#1.6.1
+zig fetch --save git+https://github.com/lukaskastern/libjuice.git#v1.6.1
 ```
 
 You can then import `libjuice` in your `build.zig` with:
